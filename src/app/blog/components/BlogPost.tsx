@@ -3,11 +3,12 @@
  *
  * This component renders the content of an individual blog post.
  * It displays the post title, content, publication date, author,
- * and category. The content is rendered using dangerouslySetInnerHTML
- * which allows for HTML content to be displayed. This component is used
+ * and category. The content is rendered using ReactMarkdown
+ * which allows for markdown content to be properly formatted. This component is used
  * within the single blog post page to present the full post content.
  */
 import React from "react";
+import ReactMarkdown from "react-markdown";
 
 interface BlogPostProps {
   title: string;
@@ -34,9 +35,9 @@ export default function BlogPost({
           {category && <span className="category">In {category}</span>}
         </div>
       </header>
-      <div className="content">
-        {/* Content will be rendered here */}
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+      <div className="content prose prose-lg max-w-none">
+        {/* Content will be rendered using ReactMarkdown */}
+        <ReactMarkdown>{content}</ReactMarkdown>
       </div>
     </article>
   );
