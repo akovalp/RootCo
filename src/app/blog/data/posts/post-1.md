@@ -6,6 +6,7 @@ author: 'John Doe'
 category: 'development'
 tags: ['nextjs', 'react', 'tutorial']
 coverImage: '/images/blog/nextjs-cover.jpg'
+
 ---
 
 # Getting Started with Next.js

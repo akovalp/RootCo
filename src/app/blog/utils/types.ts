@@ -1,3 +1,14 @@
+/**
+ * Blog Type Definitions
+ *
+ * This file contains TypeScript type definitions for the blog section.
+ * It defines the structure for blog posts, categories, and authors
+ * to ensure type safety throughout the application and provide
+ * intellisense when working with blog data.
+ *
+ * These types are used by the API functions and UI components
+ * to maintain consistency in data handling.
+ */
 export type BlogCategory = {
   id: string;
   name: string;

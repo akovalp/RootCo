@@ -1,3 +1,11 @@
+/**
+ * Blog Categories Data
+ *
+ * This file defines the list of available blog categories.
+ * Each category has an ID, name, slug (URL-friendly identifier),
+ * and description. These categories are used for organizing and
+ * filtering blog posts and are displayed in the categories sidebar.
+ */
 import { Category } from "../utils/types";
 
 const categories: Category[] = [

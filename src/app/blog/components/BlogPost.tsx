@@ -1,3 +1,12 @@
+/**
+ * Blog Post Component
+ *
+ * This component renders the content of an individual blog post.
+ * It displays the post title, content, publication date, author,
+ * and category. The content is rendered using dangerouslySetInnerHTML
+ * which allows for HTML content to be displayed. This component is used
+ * within the single blog post page to present the full post content.
+ */
 import React from "react";
 
 interface BlogPostProps {
