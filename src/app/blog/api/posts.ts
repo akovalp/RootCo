@@ -15,7 +15,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { BlogPost } from "../utils/types";
+import { BlogPost } from "@/app/blog/utils/types";
 
 const postsDirectory = path.join(process.cwd(), "src/app/blog/data/posts");
 

@@ -113,7 +113,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           <footer className="mt-12 pt-8 border-t border-gray-200">
             <div className="flex justify-between items-center">
               <div>
-                <h3 className="text-lg font-medium mb-1">Posted by</h3>
+                <h3 className="text-lg font-medium mb-1">Yazan</h3>
                 <p>
                   {typeof post.author === "string"
                     ? post.author

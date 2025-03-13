@@ -8,28 +8,19 @@ tags: ['Şikayet', 'Yakın İlişkiler', 'Düşünce']
 coverImage: '/BlogImages/sikayet.webp'
 ---
 
-# Getting Started with Next.js
+# **Şikayet Etmek Üzerine**
 
-Next.js is a powerful React framework that gives you building blocks to create web applications.
+## **Giriş**
+Yakın çevremizde gözlemlediğimiz ve birçoğunuzun da gözlemlemiş olabileceğini tahmin ettiğim bir ikilemden bahsetmek istiyorum. Hepimizin bildiği üzere, Türkiye son birkaç yıldır hızlı bir değişim sürecine girdi ve birçoğumuz için Türkiye'nin bize sunduğu hayat koşulları, isteklerimiz, hayallerimiz ve ihtiyaçlarımız açısından oldukça yetersiz kaldı. Bunun için birçoğumuz göç etmek ve “daha iyi bir yaşam” arayışı için başka ülkelere yelken açtık. Göç üzerine birçok içerik üretiyor olacağız; ancak yine de söylemeden geçmek olmaz: Nereye gidersek gidelim, göç başlı başına oldukça zor bir deneyim.
 
-## Why Next.js?
+## **Göç Edenlerin Şikayet Etmesi Neden Eleştiriliyor?**
+Yurt dışına taşınan insanların şikayet etmek konusunda yakın çevreleri tarafından “ayıplandığına” şahit oluyorum.  
+- “Uğraştın, istedin, gittin, e şimdi şikayet mi ediyorsun?”  
+- “Bak, biz burada hâlâ zorluklarla uğraşıyoruz; sen bunlara mı kafayı takıyorsun?”  
+- “Aman, ne olacak postanede sana bağırdılarsa, boşver geç!”  
 
-Next.js provides a great developer experience with features like:
+Bu noktada eminim ki aranızda bu söylemlerin oldukça benzerlerini yakın çevresinden duymuş olanlar olacaktır. Ancak burada asıl önemli olan, **şikayet etmenin doğasını ve neden bu kadar tepki gördüğünü anlamak.**
 
-- Server-side rendering
-- Static site generation
-- API routes
-- File-based routing
-- Built-in CSS support
-
-## Getting Started
-
-Here's how you can start a new Next.js project:
-
-```bash
-npx create-next-app@latest my-next-app
-cd my-next-app
-npm run dev
-```
-
-This is just a placeholder post. The actual content will be implemented later. 
+## **Şikayet Etmek: Nankörlük mü, Çözüm Arayışı mı?**
+Şikayet etmek gerçekten bir **nankörlük** mü, yoksa insanın karşılaştığı zorluklara **çözüm arayışının** bir parçası mı?  
+Bu ve benzeri sorular, kendi göç yolculuğumuzda üzerine sık sık düşündüğümüz konular. “Şikayet edememek” veya “Şikayet etmenin getirdiği **nankörlük hissi**” gibi konuları bu serinin devamında daha detaylı şekilde ele almak istiyoruz.

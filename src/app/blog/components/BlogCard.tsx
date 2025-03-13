@@ -45,7 +45,7 @@ export default function BlogCard({ post }: BlogCardProps) {
           href={`/blog/${post.slug}`}
           className="text-blue-600 font-medium hover:text-blue-800 transition"
         >
-          Read More →
+          Devamını Okuyun →
         </Link>
       </div>
     </div>
