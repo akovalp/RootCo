@@ -12,7 +12,9 @@ export default function FoundersList() {
                 src="/alp.webp" 
                 alt="Alp Akova" 
                 width={400} 
-                height={400} 
+                height={400}
+                priority={true}
+                quality={80}
                 className="w-full h-auto object-cover aspect-square"
               />
             </div>
@@ -59,7 +61,7 @@ export default function FoundersList() {
                 alt="Azra Hamitoğlu Kobak" 
                 width={400} 
                 height={400}
-                priority
+                quality={70}
                 className="w-full h-auto object-cover aspect-square"
               />
             </div> 
@@ -105,7 +107,9 @@ export default function FoundersList() {
                 src="/sena.webp" 
                 alt="Sena Nur Kaya" 
                 width={400} 
-                height={400} 
+                height={400}
+                quality={70}
+                loading="lazy" 
                 className="w-full h-auto object-cover aspect-square"
               />
             </div>
@@ -151,7 +155,9 @@ export default function FoundersList() {
                 src="/selcen.webp" 
                 alt="Selcen Serin Görgüner" 
                 width={400} 
-                height={400} 
+                height={400}
+                loading="lazy"
+                quality={70} 
                 className="w-full h-auto object-cover aspect-square"
               />
             </div>
