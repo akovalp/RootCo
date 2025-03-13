@@ -130,6 +130,13 @@ const Navbar = () => {
             >
               İletişim
             </Link>
+            <Link
+              href="/blog"
+              className="text-willow-grove hover:text-walnut transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Blog
+            </Link>
           </div>
         </motion.div>
       )}
