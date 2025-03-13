@@ -6,6 +6,7 @@
  * to filter blog posts by category. The component shows the category name
  * and optionally the post count for each category. It's used in the blog
  * main page to provide navigation and content organization.
+ * This component is not used in the current implementation. We will add it later.
  */
 import React from "react";
 import Link from "next/link";

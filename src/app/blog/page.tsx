@@ -10,7 +10,7 @@
 import Navbar from "@/components/client/Navbar";
 import Footer from "@/components/client/Footer";
 import BlogList from "./components/BlogList";
-import BlogCategories from "./components/BlogCategories";
+// import BlogCategories from "./components/BlogCategories";
 import BlogHero from "./components/BlogHero";
 import { getAllPosts } from "./api/posts";
 
@@ -27,10 +27,11 @@ export default function BlogPage() {
         {featuredPost && <BlogHero post={featuredPost} />}
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-12">
-          {/* Left sidebar with categories */}
+          {/* The sidebar with categories will be added later When we have more */}
+          {/* Left sidebar with categories
           <div className="lg:col-span-1">
             <BlogCategories />
-          </div>
+          </div> */}
 
           {/* Main content with blog list */}
           <div className="lg:col-span-3">

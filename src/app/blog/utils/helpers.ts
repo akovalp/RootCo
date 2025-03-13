@@ -1,11 +1,11 @@
-import { Post } from "./types";
+import { BlogPost } from "./types";
 
 /**
  * Format date for display
  */
 export function formatDate(dateString: string): string {
   const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", {
+  return date.toLocaleDateString("tr-TR", {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -15,7 +15,7 @@ export function formatDate(dateString: string): string {
 /**
  * Sort posts by date (newest first)
  */
-export function sortPostsByDate(posts: Post[]): Post[] {
+export function sortPostsByDate(posts: BlogPost[]): BlogPost[] {
   return [...posts].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );

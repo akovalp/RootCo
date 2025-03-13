@@ -66,7 +66,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           <header className="mb-8">
             <div className="mb-6">
               <Link href="/blog" className="text-blue-600 hover:underline">
-                ← Back to Blog
+                ← Blog Sayfasına Geri Dönün
               </Link>
             </div>
             <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
@@ -124,7 +124,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 href="/blog"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md transition"
               >
-                More Articles
+                Diğer Yazılar
               </Link>
             </div>
           </footer>
