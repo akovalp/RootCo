@@ -43,7 +43,7 @@ export default function BlogHero({ post }: BlogHeroProps) {
             href={`/blog/${post.slug}`}
             className="inline-block bg-white text-black px-6 py-2 rounded-md font-medium hover:bg-gray-100 transition"
           >
-            Read Article
+            Yazıyı Okuyun
           </Link>
         </div>
       </div>

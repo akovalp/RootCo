@@ -1,12 +1,11 @@
 ---
-title: 'Getting Started with Next.js'
-excerpt: 'Learn the basics of Next.js and how to build your first application'
-date: '2023-06-15'
-author: 'John Doe'
-category: 'development'
-tags: ['nextjs', 'react', 'tutorial']
-coverImage: '/images/blog/nextjs-cover.jpg'
-
+title: 'Şikayet Etmek Üzerine'
+excerpt: 'Yurtdışına göç sürecinde şikayet etme (veya edememe hakkı)'
+date: '2025-03-15'
+author: 'Alp Akova'
+category: 'Şikayet'
+tags: ['Şikayet', 'Yakın İlişkiler', 'Düşünce']
+coverImage: '/BlogImages/sikayet.webp'
 ---
 
 # Getting Started with Next.js
