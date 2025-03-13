@@ -43,6 +43,13 @@ const Navbar = () => {
         >
           İletişim
         </Link>
+        {/* //ANCHOR: Blog */}
+        <Link
+          href="/blog"
+          className="text-willow-grove hover:text-walnut transition-colors"
+        >
+          Blog
+        </Link>
       </div>
       {/* //!SECTION - Desktop Navigation */}
 
