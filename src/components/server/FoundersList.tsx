@@ -195,16 +195,33 @@ export default function FoundersList() {
             </div>
 
             <p className="text-willow-grove mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              tempus lacus nec tellus consectetur, eget rhoncus enim sagittis.
-              Suspendisse potenti. Ut auctor, leo vel fermentum facilisis, purus
-              metus finibus orci, vitae viverra urna libero in urna.
+              Psikoloji alanında lisans eğitimini Kanada'da University of
+              British Columbia'da tamamladı. Bu süreçte, temel psikoloji
+              disiplininde sağlam bir teorik altyapı edindi ve akademik alanda
+              aktif olarak çalışmalara katıldı.Yüksek lisans eğitimini ise
+              Gelişim ve Eğitim Psikolojisi alanında, İtalya'da University of
+              Padova'da başarıyla tamamladı. Bu süreçte, bireylerin gelişim
+              süreçleri ve eğitim psikolojisi konularında uzmanlaştı ve gelişim
+              psikolojisi alanında öncü araştırmaların bir parçası oldu. Yüksek
+              lisansını "5-12 Aylık Bebeklerde İşitsel Çalışma Belleği" konulu
+              teziyle tamamladı. Eğitim hayatı boyunca çeşitli stajlar yaparak
+              psikoloji alanında deneyim kazandı.
             </p>
             <p className="text-willow-grove mb-4">
-              Donec molestie augue ac ipsum rutrum, at volutpat eros facilisis.
-              Quisque vitae tincidunt justo. Nunc semper ipsum id lorem
-              consequat, sed scelerisque dolor feugiat. Maecenas vel tellus
-              vitae nisl pretium molestie.
+              Profesyonel kariyerinde, yetişkinler, ergenler ve çocuklar için
+              bilişsel davranışçı terapi (BDT) ve aile ve ebeveyn danışmanlığı
+              alanlarında uzmanlaştı.Yetişkinlerle çalışma alanları arasında
+              kaygı bozuklukları, ilişkisel problemler, obsesif kompulsif
+              bozukluk, depresyon, özgül fobiler, bağımlılık, yeme bozuklukları,
+              özsaygı ve özgüven sorunları bulunmaktadır. Çocuk ve gençlerle ise
+              özellikle bağlanma sorunları, kaygı bozuklukları, okul kaygısı ve
+              reddi, sınav kaygısı, obsesif kompulsif bozukluk ve trikotilomani
+              gibi alanlarda çalışmalar yürütmektedir. Uzmanlık alanı
+              çerçevesinde, başlıca bilişsel davranışçı terapi olmak üzere, aynı
+              zamanda sanat terapisi ve ilişkisel yöntemler gibi farklı
+              tekniklere başvurarak terapi süreçlerini yönetmektedir.
+              Psikoterapi çalışmalarına yüz yüze ve online olarak devam
+              etmektedir.
             </p>
             <a
               href="/azracv.pdf"
