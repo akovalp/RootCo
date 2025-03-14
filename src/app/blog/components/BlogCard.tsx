@@ -18,7 +18,7 @@ interface BlogCardProps {
 
 export default function BlogCard({ post }: BlogCardProps) {
   return (
-    <div className="blog-card bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition duration-300">
+    <div className="blog-card bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition duration-300 h-full flex flex-col">
       <div className="relative h-48 w-full">
         {post.coverImage ? (
           <Image
@@ -34,17 +34,21 @@ export default function BlogCard({ post }: BlogCardProps) {
           </div>
         )}
       </div>
-      <div className="p-6">
+      <div className="p-4 md:p-6 flex-grow flex flex-col">
         <div className="flex items-center text-sm text-gray-500 mb-2">
           <span>{post.date}</span>
           <span className="mx-2">•</span>
           <span>{post.readingTime}</span>
         </div>
-        <h2 className="text-xl font-bold mb-2 line-clamp-2">{post.title}</h2>
-        <p className="text-gray-600 mb-4 line-clamp-3">{post.excerpt}</p>
+        <h2 className="text-lg md:text-xl font-bold mb-2 line-clamp-2">
+          {post.title}
+        </h2>
+        <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">
+          {post.excerpt}
+        </p>
         <Link
           href={`/blog/${post.slug}`}
-          className="text-blue-600 font-medium hover:text-blue-800 transition"
+          className="text-blue-600 font-medium hover:text-blue-800 transition mt-auto"
         >
           Devamını Okuyun →
         </Link>

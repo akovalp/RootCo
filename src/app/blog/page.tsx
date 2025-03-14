@@ -22,21 +22,13 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Hero section with featured post */}
         {featuredPost && <BlogHero post={featuredPost} />}
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-12">
-          {/* The sidebar with categories will be added later When we have more */}
-          {/* Left sidebar with categories
-          <div className="lg:col-span-1">
-            <BlogCategories />
-          </div> */}
-
+        <div className="mt-12 w-full">
           {/* Main content with blog list */}
-          <div className="lg:col-span-3">
-            <BlogList posts={posts} />
-          </div>
+          <BlogList posts={posts} />
         </div>
       </main>
       <Footer />

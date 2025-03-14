@@ -21,14 +21,14 @@ export default function BlogList({
   title = "Latest Posts",
 }: BlogListProps) {
   return (
-    <div className="blog-list">
+    <div className="blog-list w-full">
       <h2 className="text-2xl font-bold mb-6">{title}</h2>
       {posts.length === 0 ? (
         <div className="bg-gray-50 p-8 text-center rounded-lg">
           <p className="text-gray-500">No posts found.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full">
           {posts.map((post) => (
             <BlogCard key={post.id} post={post} />
           ))}
