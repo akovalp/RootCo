@@ -6,6 +6,8 @@
  * with its title, cover image, content, author information, and publication date.
  * This page uses React Markdown to render the content and provides metadata for
  * search engines and social sharing.
+ *
+ * This is the full page with things like the Navbar, Footer, etc.
  */
 import React from "react";
 import { getPostBySlug } from "../api/posts";

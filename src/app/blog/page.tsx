@@ -16,10 +16,11 @@ import { getAllPosts } from "./api/posts";
 
 export default function BlogPage() {
   // Get all blog posts
-  const posts = getAllPosts();
-  const featuredPost = posts.find((post) => post.featured) || posts[0];
+  const posts = getAllPosts(); // Returns an array of all blog posts
+  const featuredPost = posts.find((post) => post.featured) || posts[0]; // Returns the first post if no featured post is found
 
   return (
+    // This is the full page with things like the Navbar, Footer, etc.
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">

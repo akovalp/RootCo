@@ -29,7 +29,7 @@ export function getAllPosts(): BlogPost[] {
     .filter((fileName) => fileName.endsWith(".md"))
     .map((fileName) => {
       // Remove ".md" from file name to get the slug
-      const slug = fileName.replace(/\.md$/, "");
+      const slug = fileName.replace(/\.md$/, ""); // Remove the .md extension
 
       // Read markdown file as string
       const fullPath = path.join(postsDirectory, fileName);
@@ -88,6 +88,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
   }
 }
 
+// Get posts by category
 export function getPostsByCategory(category: string): BlogPost[] {
   const allPosts = getAllPosts();
   return allPosts.filter((post) => {
@@ -98,11 +99,13 @@ export function getPostsByCategory(category: string): BlogPost[] {
   });
 }
 
+// Get featured posts
 export function getFeaturedPosts(): BlogPost[] {
   const allPosts = getAllPosts();
   return allPosts.filter((post) => post.featured);
 }
 
+// Get posts by tag
 export function getPostsByTag(tag: string): BlogPost[] {
   const allPosts = getAllPosts();
   return allPosts.filter((post) => post.tags?.includes(tag));
