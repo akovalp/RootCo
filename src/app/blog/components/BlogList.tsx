@@ -18,7 +18,7 @@ interface BlogListProps {
 
 export default function BlogList({
   posts,
-  title = "Latest Posts",
+  title = "En Son Yazılar",
 }: BlogListProps) {
   return (
     <div className="blog-list w-full">
