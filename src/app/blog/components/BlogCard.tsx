@@ -24,8 +24,9 @@ export default function BlogCard({ post }: BlogCardProps) {
           <Image
             src={post.coverImage}
             alt={post.title}
-            fill
-            className="object-cover"
+            width={600}
+            height={300}
+            className="w-full h-48 object-cover"
           />
         ) : (
           <div className="bg-gray-200 h-full w-full flex items-center justify-center text-gray-500">

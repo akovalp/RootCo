@@ -94,19 +94,42 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
 
           {/* Cover Image */}
           {post.coverImage && (
-            <div className="relative w-full h-80 mb-8 rounded-lg overflow-hidden">
+            <div className="w-full mb-8 rounded-lg overflow-hidden">
               <Image
                 src={post.coverImage}
                 alt={post.title}
-                fill
-                className="object-cover"
+                width={1200}
+                height={630}
+                className="w-full h-auto object-cover"
+                priority
               />
             </div>
           )}
 
           {/* Post Content */}
           <div className="prose prose-lg max-w-none">
-            <ReactMarkdown>{post.content}</ReactMarkdown>
+            <ReactMarkdown
+              components={{
+                img: ({ node, ...props }) => (
+                  <div className="my-8 w-full">
+                    <Image
+                      src={props.src || ""}
+                      alt={props.alt || ""}
+                      width={1200}
+                      height={630}
+                      className="w-full h-auto rounded-lg"
+                    />
+                    {props.alt && (
+                      <p className="text-center text-sm text-gray-500 mt-2">
+                        {props.alt}
+                      </p>
+                    )}
+                  </div>
+                ),
+              }}
+            >
+              {post.content}
+            </ReactMarkdown>
           </div>
 
           {/* Post Footer */}
