@@ -119,11 +119,14 @@ export default function Home() {
                   Azra Hamitoğlu Kobak
                 </h3>
                 <p className="text-battleship-gray mb-3">
-                  Boşnak Böreği Uzmanı
+                  Uzman Gelişim Psikologu
                 </p>
                 <p className="text-willow-grove text-sm">
-                  Azra, boşnak böreği ile ilgili tüm bilgileri biliyor. Aynı
-                  zamanda Azra kendisi de Boşnaktır.
+                  Kanada'da UBC'de psikoloji okudu, Padova Üniversitesi'nde
+                  Gelişim ve Eğitim Psikolojisi yüksek lisansını tamamladı. BDT
+                  ve aile danışmanlığı alanında uzmanlaşarak kaygı, depresyon,
+                  obsesif kompulsif bozukluk ve çocuk-ergen psikolojisi üzerine
+                  çalışmaktadır. Yüz yüze ve online terapi sunmaktadır.
                 </p>
               </div>
               {/* //!SECTION Azra Hamitoğlu Kobak Card */}

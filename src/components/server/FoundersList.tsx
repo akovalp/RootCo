@@ -129,11 +129,11 @@ export default function FoundersList() {
             <h2 className="text-3xl font-bold text-walnut mb-2">
               Azra Hamitoğlu Kobak
             </h2>
-            <p className="text-battleship-gray mb-4">Boşnak Böreği Uzmanı</p>
+            <p className="text-battleship-gray mb-4">Uzman Gelişim Psikologu</p>
             <div className="mb-6 flex space-x-4">
               {/* //ANCHOR: Mail*/}
               <a
-                href="mailto:azra@example.com"
+                href="mailto:azrahamitoglu.info@gmail.com"
                 className="text-bourbon hover:text-walnut transition-colors"
                 aria-label="Email"
               >
@@ -301,16 +301,33 @@ export default function FoundersList() {
               </a>
             </div>
             <p className="text-willow-grove mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              tempus lacus nec tellus consectetur, eget rhoncus enim sagittis.
-              Suspendisse potenti. Ut auctor, leo vel fermentum facilisis, purus
-              metus finibus orci, vitae viverra urna libero in urna.
+              Sena Nur Kaya, MEF Üniversitesi Psikoloji (İngilizce) bölümünden
+              farklı dönemlerde onur ve yüksek onur derecelerini alarak mezun
+              olmuştur. Lisans döneminde tezini Gelişim, Klinik, Sosyal
+              Psikoloji alt dallarında olmak üzere toplam 4 farklı araştırma ve
+              çalışma yaparak tamamlamıştır. Lisans dönemi boyunca çeşitli
+              kliniklerde stajlar yapmıştır. Yüksek lisansını ise İtalya’da
+              bulunan Padova Üniversitesi’nde Gelişim ve Eğitim Psikolojisi
+              alanında tamamlamıştır. Yüksek lisans tezini “Matematik
+              Performanslarındaki Cinsiyet Farklılıkları” konulu Meta-Analiz
+              araştırması ile yazmıştır. Bu dönemde İtalya’da Montessori yöntemi
+              ile hizmet sunan bir okulda 0-6 yaş arası çocuklarla çalışarak
+              farklı kültürlerden gelen aileler ve çocukları daha yakından
+              inceleme, analiz etme ve farklı yöntemler geliştirme imkanı
+              oluşturmuştur.
             </p>
             <p className="text-willow-grove mb-4">
-              Donec molestie augue ac ipsum rutrum, at volutpat eros facilisis.
-              Quisque vitae tincidunt justo. Nunc semper ipsum id lorem
-              consequat, sed scelerisque dolor feugiat. Maecenas vel tellus
-              vitae nisl pretium molestie.
+              Göç deneyimini bizzat kendi deneyimleyen bir Gelişim Psikoloğu
+              olarak hala İtalya’da bulunmakta ve online olarak yetişkinler ve
+              ergenlerle Bilişsel Davranışçı Terapi ve Sanat Terapisi
+              ekolleriyle kaygı bozuklukları, ilişkisel problemler, obsesif
+              kompülsif bozukluk, depresyon, özgül fobiler, bağımlılık, yeme
+              bozuklukları alanlarında bireysel psikoterapi alanlarında hizmet
+              vermektedir. Ek olarak, çocuklarda duygu düzenleme becerileri,
+              sınırlar, uyku ve yeme problemleri, özgüven sorunları, okula uyum
+              ve oryantasyon süreci, kaygı ve fobiler, kardeş ve akran
+              ilişkileri, sağlıklı ebeveyn tutumları, boşanma, yas alanlarında
+              ebeveyn danışmanlığı hizmeti vermektedir.
             </p>
             <a
               href="/senacv.pdf"
