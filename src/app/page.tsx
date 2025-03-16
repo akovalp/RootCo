@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-semibold text-walnut">Alp Akova</h3>
                 <p className="text-battleship-gray mb-3">
-                  Cognitive Neuroscience PhD Adayı
+                  Bilişsel Sinirbilim Doktora Adayı
                 </p>
                 <p className="text-willow-grove text-sm">
                   Alp Akova, Sabancı Üniversitesi'nde psikoloji okudu, Padova
@@ -121,7 +121,7 @@ export default function Home() {
                   Azra Hamitoğlu Kobak
                 </h3>
                 <p className="text-battleship-gray mb-3">
-                  Uzman Gelişim Psikologu
+                  Uzman Gelişim Psikoloğu
                 </p>
                 <p className="text-willow-grove text-sm">
                   Kanada'da University of British Columbia'da psikoloji okudu,
