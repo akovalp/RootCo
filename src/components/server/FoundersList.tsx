@@ -22,7 +22,7 @@ export default function FoundersList() {
           <div className="md:col-span-2">
             <h2 className="text-3xl font-bold text-walnut mb-2">Alp Akova</h2>
             <p className="text-battleship-gray mb-4">
-              Cognitive Neuroscience PhD Adayı
+              Bilişsel Sinirbilim Doktora Adayı
             </p>
             <div className="mb-6 flex space-x-4">
               {/* //ANCHOR: Mail*/}
@@ -72,26 +72,47 @@ export default function FoundersList() {
                 </svg>
               </a>
             </div>
-            
+
             {/* Key Information Lists */}
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               {/* Education List */}
               <div className="bg-bourbon/5 p-4 rounded-lg border border-bourbon/20">
                 <h3 className="text-lg font-semibold text-walnut mb-3 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-bourbon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <svg
+                    className="w-5 h-5 mr-2 text-bourbon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 14l9-5-9-5-9 5 9 5z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
                   </svg>
                   Eğitim
                 </h3>
                 <ul className="space-y-2 text-sm text-willow-grove">
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>PhD, Cognitive Neuroscience - Trento Üniversitesi (Devam ediyor)</span>
+                    <span>
+                      PhD, Cognitive Neuroscience - Trento Üniversitesi (Devam
+                      ediyor)
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>MSc, Gelişim ve Eğitim Psikolojisi - Padova Üniversitesi</span>
+                    <span>
+                      MSc, Gelişim ve Eğitim Psikolojisi - Padova Üniversitesi
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
@@ -99,12 +120,23 @@ export default function FoundersList() {
                   </li>
                 </ul>
               </div>
-              
+
               {/* Experience List */}
               <div className="bg-bourbon/5 p-4 rounded-lg border border-bourbon/20">
                 <h3 className="text-lg font-semibold text-walnut mb-3 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-bourbon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg
+                    className="w-5 h-5 mr-2 text-bourbon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
                   </svg>
                   Uzmanlık Alanları
                 </h3>
@@ -128,7 +160,7 @@ export default function FoundersList() {
                 </ul>
               </div>
             </div>
-            
+
             <p className="text-willow-grove mb-4">
               Alp Akova, Sabancı Üniversitesi Psikoloji bölümünden mezun oldu.
               Lisans döneminde özellikle karar alma süreçleri, tüketici
@@ -256,29 +288,58 @@ export default function FoundersList() {
               {/* Education List */}
               <div className="bg-bourbon/5 p-4 rounded-lg border border-bourbon/20">
                 <h3 className="text-lg font-semibold text-walnut mb-3 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-bourbon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <svg
+                    className="w-5 h-5 mr-2 text-bourbon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 14l9-5-9-5-9 5 9 5z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
                   </svg>
                   Eğitim
                 </h3>
                 <ul className="space-y-2 text-sm text-willow-grove">
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>MSc, Gelişim ve Eğitim Psikolojisi - Padova Üniversitesi</span>
+                    <span>
+                      MSc, Gelişim ve Eğitim Psikolojisi - Padova Üniversitesi
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>BSc, Psikoloji - University of British Columbia</span>
+                    <span>BA, Psikoloji - University of British Columbia</span>
                   </li>
                 </ul>
               </div>
-              
+
               {/* Experience List */}
               <div className="bg-bourbon/5 p-4 rounded-lg border border-bourbon/20">
                 <h3 className="text-lg font-semibold text-walnut mb-3 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-bourbon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg
+                    className="w-5 h-5 mr-2 text-bourbon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
                   </svg>
                   Uzmanlık Alanları
                 </h3>
@@ -289,11 +350,17 @@ export default function FoundersList() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>Kaygı bozuklukları ve OKB</span>
+                    <span>
+                      Dikkat Eksikliği ve Hiperaktivite Bozukluğu (DEHB)
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>Çocuk ve gençlerle terapi</span>
+                    <span>Kaygı bozuklukları ve OKB Depresyon</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-bourbon mr-2">•</span>
+                    <span>Çocuk ve ergen gelişimi</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
@@ -364,7 +431,7 @@ export default function FoundersList() {
             <div className="mb-6 flex space-x-4">
               {/* //ANCHOR: Mail*/}
               <a
-                href="psk.kayasena@gmail.com"
+                href="mailto:psk.kayasena@gmail.com"
                 className="text-bourbon hover:text-walnut transition-colors"
                 aria-label="Email"
               >
@@ -409,35 +476,64 @@ export default function FoundersList() {
                 </svg>
               </a>
             </div>
-            
+
             {/* Key Information Lists */}
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               {/* Education List */}
               <div className="bg-bourbon/5 p-4 rounded-lg border border-bourbon/20">
                 <h3 className="text-lg font-semibold text-walnut mb-3 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-bourbon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <svg
+                    className="w-5 h-5 mr-2 text-bourbon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 14l9-5-9-5-9 5 9 5z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
                   </svg>
                   Eğitim
                 </h3>
                 <ul className="space-y-2 text-sm text-willow-grove">
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>MSc, Gelişim ve Eğitim Psikolojisi - Padova Üniversitesi</span>
+                    <span>
+                      MSc, Gelişim ve Eğitim Psikolojisi - Padova Üniversitesi
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>BSc, Psikoloji (İngilizce) - MEF Üniversitesi</span>
+                    <span>BA, Psikoloji (İngilizce) - MEF Üniversitesi</span>
                   </li>
                 </ul>
               </div>
-              
+
               {/* Experience List */}
               <div className="bg-bourbon/5 p-4 rounded-lg border border-bourbon/20">
                 <h3 className="text-lg font-semibold text-walnut mb-3 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-bourbon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg
+                    className="w-5 h-5 mr-2 text-bourbon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
                   </svg>
                   Uzmanlık Alanları
                 </h3>
@@ -452,16 +548,16 @@ export default function FoundersList() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>Ebeveyn danışmanlığı</span>
+                    <span>Ebeveyn Danışmanlığı</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>Montessori eğitim yöntemi</span>
+                    <span>Çocuk ve Ergen Gelişimi</span>
                   </li>
                 </ul>
               </div>
             </div>
-            
+
             <p className="text-willow-grove mb-4">
               Sena Nur Kaya, MEF Üniversitesi Psikoloji (İngilizce) bölümünden
               farklı dönemlerde onur ve yüksek onur derecelerini alarak mezun
@@ -586,26 +682,47 @@ export default function FoundersList() {
                 </svg>
               </a>
             </div>
-            
+
             {/* Key Information Lists */}
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               {/* Education List */}
               <div className="bg-bourbon/5 p-4 rounded-lg border border-bourbon/20">
                 <h3 className="text-lg font-semibold text-walnut mb-3 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-bourbon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <svg
+                    className="w-5 h-5 mr-2 text-bourbon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 14l9-5-9-5-9 5 9 5z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                    />
                   </svg>
                   Eğitim
                 </h3>
                 <ul className="space-y-2 text-sm text-willow-grove">
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>MSc, Gelişim ve Eğitim Psikolojisi - Padova Üniversitesi</span>
+                    <span>
+                      MSc, Gelişim ve Eğitim Psikolojisi - Padova Üniversitesi
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>BSc, Psikolojik Danışmanlık ve Rehberlik - Boğaziçi Üniversitesi</span>
+                    <span>
+                      BSc, Psikolojik Danışmanlık ve Rehberlik - Boğaziçi
+                      Üniversitesi
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
@@ -613,12 +730,23 @@ export default function FoundersList() {
                   </li>
                 </ul>
               </div>
-              
+
               {/* Experience List */}
               <div className="bg-bourbon/5 p-4 rounded-lg border border-bourbon/20">
                 <h3 className="text-lg font-semibold text-walnut mb-3 flex items-center">
-                  <svg className="w-5 h-5 mr-2 text-bourbon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg
+                    className="w-5 h-5 mr-2 text-bourbon"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
                   </svg>
                   Uzmanlık Alanları
                 </h3>
@@ -642,7 +770,7 @@ export default function FoundersList() {
                 </ul>
               </div>
             </div>
-            
+
             {/* //ANCHOR: Bio */}
             <p className="text-willow-grove mb-4">
               Selcen Serin Görgüner, Boğaziçi Üniversitesi Psikolojik

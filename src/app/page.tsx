@@ -93,7 +93,9 @@ export default function Home() {
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-walnut">Alp Akova</h3>
-                <p className="text-battleship-gray mb-3">Kod uzmanı ai adam</p>
+                <p className="text-battleship-gray mb-3">
+                  Cognitive Neuroscience PhD Adayı
+                </p>
                 <p className="text-willow-grove text-sm">
                   Alp Akova, Sabancı Üniversitesi'nde psikoloji okudu, Padova
                   Üniversitesi'nde LLM’lerin dil öğretimine etkisini inceledi.
@@ -122,9 +124,10 @@ export default function Home() {
                   Uzman Gelişim Psikologu
                 </p>
                 <p className="text-willow-grove text-sm">
-                  Kanada'da UBC'de psikoloji okudu, Padova Üniversitesi'nde
-                  Gelişim ve Eğitim Psikolojisi yüksek lisansını tamamladı. BDT
-                  ve aile danışmanlığı alanında uzmanlaşarak kaygı, depresyon,
+                  Kanada'da University of British Columbia'da psikoloji okudu,
+                  Padova Üniversitesi'nde Gelişim ve Eğitim Psikolojisi yüksek
+                  lisansını tamamladı. BDT ve aile danışmanlığı alanında
+                  uzmanlaşarak yetişkin ve ergenler ile kaygı, depresyon,
                   obsesif kompulsif bozukluk ve çocuk-ergen psikolojisi üzerine
                   çalışmaktadır. Yüz yüze ve online terapi sunmaktadır.
                 </p>
@@ -145,12 +148,14 @@ export default function Home() {
                   Sena Nur Kaya
                 </h3>
                 <p className="text-battleship-gray mb-3">
-                  Kayserili ama Sivaslı
+                  Uzman Gelişim Psikoloğu
                 </p>
                 <p className="text-willow-grove text-sm">
-                  Sena Nur, Kayseri'de yaşayan bir kadındır. Ama Sivaslıdır?
-                  Kayserili ama Sivaslıdır. (Bu kısımları AI onerdi kahkaha
-                  attım bıraktım)
+                  Sena Nur Kaya, MEF Üniversitesi Psikoloji mezunu, Padova
+                  Üniversitesi'nde Gelişim ve Eğitim Psikolojisi yüksek
+                  lisansını tamamladı. İtalya’da yaşayan bir gelişim psikoloğu
+                  olarak, BDT ve sanat terapisi ile yetişkin ve ergenlere
+                  bireysel psikoterapi ve ebeveyn danışmanlığı sunmaktadır.
                 </p>
               </div>
               {/* //!SECTION Sena Nur Kaya Card */}
