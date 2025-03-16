@@ -194,7 +194,7 @@ export default function FoundersList() {
               href="/alpcv.pdf"
               className="inline-block text-bourbon font-medium hover:text-walnut transition-colors"
             >
-              Download CV →
+              Özgeçmiş İndir →
             </a>
           </div>
         </div>
@@ -403,7 +403,7 @@ export default function FoundersList() {
               href="/azracv.pdf"
               className="inline-block text-bourbon font-medium hover:text-walnut transition-colors"
             >
-              Download CV →
+              Özgeçmiş İndir →
             </a>
           </div>
         </div>
@@ -591,7 +591,7 @@ export default function FoundersList() {
               href="/senacv.pdf"
               className="inline-block text-bourbon font-medium hover:text-walnut transition-colors"
             >
-              Download CV →
+              Özgeçmiş İndir →
             </a>
           </div>
         </div>
@@ -800,7 +800,7 @@ export default function FoundersList() {
               href="/selcencv.pdf"
               className="inline-block text-bourbon font-medium hover:text-walnut transition-colors"
             >
-              Download CV →
+              Özgeçmiş İndir →
             </a>
           </div>
         </div>
