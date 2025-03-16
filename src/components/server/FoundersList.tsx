@@ -753,19 +753,19 @@ export default function FoundersList() {
                 <ul className="space-y-2 text-sm text-willow-grove">
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>Çocuk ve ergen terapisi</span>
+                    <span>Deneyimsel Oyun Terapisi</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>Genç yetişkin danışmanlığı</span>
+                    <span>Sanat Terapisi</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>Göçmen ve uyum sorunları</span>
+                    <span>Somatik Deneyimleme</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-bourbon mr-2">•</span>
-                    <span>Ebeveyn ve rehberlik danışmanlığı</span>
+                    <span>Psikodinamik Terapi</span>
                   </li>
                 </ul>
               </div>
